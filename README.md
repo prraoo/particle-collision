@@ -28,7 +28,7 @@ As the hash values are directly related to the position of the particles, we can
 1.	First, we sort the hash values of the particles using the Thrust library’s sorting method, a fast, efficient radix sorting method for CUDA-capable devices [2]. This provides us an array of particle ids ordered by grid cell positions.
 2.	Next, we pass this array to the kernel `find_cell_start_kernel` to find the beginning particle index for given grid cell. The kernel compares the hash values of the current particle and previous particle from the sorted list. In those instances where the hash values do not match, indicates that the particle is in a different cell. We write this index value as the starting position for the new particle into the array `cell_start_idx` and ending position for the previous particle into the array `cell_end_idx`. In this manner we generate a starting and beginning position for all the cells.
 
-![Figure 1](assets\report\UniformGrid_Sort.jpg)
+![Figure 1](report/UniformGrid_Sort.jpg)
 
 The figure above shows the unifrom grid creation and assignment of cell starting indices on 4x4 grid world. Source:[3]
 
@@ -42,7 +42,7 @@ In order to show the working of our implementation, we demonstrate the particle 
 
 Google Drive Link: https://drive.google.com/file/d/1nhkxJII24xlIz3dTTiTMWe-yEGL4Mt8v/view?usp=sharing
 
-![Final Result](assets\report\final.gif)
+![Final Result](report/final.gif)
 
 The gif above is a short clip of our final particles simulation. 
 
