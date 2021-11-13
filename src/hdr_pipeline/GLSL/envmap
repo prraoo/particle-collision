@@ -1,0 +1,12 @@
+#ifndef INCLUDED_ENVMAP
+#define INCLUDED_ENVMAP
+
+vec2 lat_long(vec3 d)
+{
+	const float pi = 3.14159265358979f;
+	float lambda = atan(d.x, d.z) * (0.5f / pi) + 0.5f;
+	float phi = normalize(d).y * 0.5f + 0.5f;
+	return vec2(lambda, phi);
+}
+
+#endif  // INCLUDED_ENVMAP
