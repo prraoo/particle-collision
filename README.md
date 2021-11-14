@@ -40,11 +40,13 @@ We want to bring it the notice to the evaluators of the project that this implem
 
 In order to show the working of our implementation, we demonstrate the particle simulation on NVIDIA GTX 960 GPU (compute capability 3.0) and share the recording. The video can be found in the location: `assets\report\demo.mkv`
 
-Google Drive Link: https://drive.google.com/file/d/1nhkxJII24xlIz3dTTiTMWe-yEGL4Mt8v/view?usp=sharing
 
 ![Final Result](report/final.gif)
 
 The gif above is a short clip of our final particles simulation. 
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2dWDSQVpvF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 ### References
 [1] Ericson, C., Real-Time Collision Detection, Morgan Kaufmann 2005
