@@ -43,10 +43,7 @@ In order to show the working of our implementation, we demonstrate the particle 
 
 ![Final Result](report/final.gif)
 
-The gif above is a short clip of our final particles simulation. 
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2dWDSQVpvF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+The gif above is a short clip of our final particles simulation. And longer version is available at https://www.youtube.com/embed/2dWDSQVpvF8
 
 ### References
 [1] Ericson, C., Real-Time Collision Detection, Morgan Kaufmann 2005
