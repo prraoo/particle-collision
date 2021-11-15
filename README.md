@@ -7,6 +7,7 @@ There are three main stages involved in the particle simulation.
 2.	Constructing a uniform grid structure
 3.	Collision of large number of particles
 
+These implementations are found in : src/particles.h , src/ particles.cpp and src/particles.cu
 The initial simulation involved containing the particles within a bounding box. At each position, the particle behaviour is described by Verlet integration version of Newtons equation of motions. Followed by inter-particles collision simulation by considering various types of forces acting on the particles during collisions. 
 
 As a naïve collision algorithm of checking each particle with each other is not feasible option, we use a uniform spatial grid structure following by a simple position-based linear hashing to check for collisions. This algorithm is much faster than the naïve collision approach and is its implementation is within the code provided.
